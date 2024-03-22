@@ -1,0 +1,15 @@
+@import "../../mixins";
+
+.navbar {
+  color: var(--text-color1);
+  @include d-flex(row, space-between, center);
+
+  .brand {
+  }
+  .menu {
+  }
+  .hamburger {
+  }
+  .toggle {
+  }
+}
