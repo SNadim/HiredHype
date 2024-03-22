@@ -136,3 +136,4 @@ D:\job\ResumeManagement\backend\backend\obj\Debug\net8.0\refint\backend.dll
 D:\job\ResumeManagement\backend\backend\obj\Debug\net8.0\backend.pdb
 D:\job\ResumeManagement\backend\backend\obj\Debug\net8.0\backend.genruntimeconfig.cache
 D:\job\ResumeManagement\backend\backend\obj\Debug\net8.0\ref\backend.dll
+D:\job\ResumeManagement\backend\backend\obj\Debug\net8.0\backend.sourcelink.json
