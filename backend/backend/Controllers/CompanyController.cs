@@ -40,7 +40,7 @@ namespace backend.Controllers
         [Route("Get")]
         public async Task<ActionResult<IEnumerable<CompanyGetDto>>> GetCompany()
         {
-            var companies = await _context.Companies.ToListAsync();
+            var companies = await _context.Companies.OrderByDescending(q => q.CreateAt).ToListAsync();
             var convertedCompanies = _mapper.Map<IEnumerable<CompanyGetDto>>(companies);
 
             return Ok(convertedCompanies);  

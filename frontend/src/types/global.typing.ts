@@ -4,9 +4,44 @@ export interface Icompany {
   size: string;
   createAt: string;
 }
-// {
-//     "id": 1,
-//     "name": "Microsoft",
-//     "size": "Large",
-//     "createAt": "2024-03-17T19:34:48.109255"
-//   },
+
+export interface ICreateCompanyDto {
+  name: string;
+  size: string;
+}
+
+export interface IJob {
+  id: string;
+  title: string;
+  level: string;
+  companyId: string;
+  companyName: string;
+  createAt: string;
+}
+
+export interface ICreateJobDto {
+  title: string;
+  level: string;
+  companyId: string;
+}
+
+export interface ICandidate {
+  id: string;
+  firstName: string;
+  lastName: string;
+  email: string;
+  phone: string;
+  coverLetter: string;
+  resumeUrl: string;
+  jobId: string;
+  jobTitle: string;
+}
+
+export interface ICreateCandidateDto {
+  firstName: string;
+  lastName: string;
+  email: string;
+  phone: string;
+  coverLetter: string;
+  jobId: string;
+}
