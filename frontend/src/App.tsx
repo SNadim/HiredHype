@@ -21,9 +21,7 @@ const App = () => {
   const appStyle = darkMode ? "app dark" : "app";
   return (
     <div className={appStyle}>
-      <h1>
-        <Navbar />
-      </h1>
+      <Navbar />
       <div className="wrapper">
         <Suspense fallback={<CustomLinearLoader />}>
           <Routes>

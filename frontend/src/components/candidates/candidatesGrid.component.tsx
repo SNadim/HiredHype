@@ -31,7 +31,7 @@ interface ICandidatesGridProps {
 }
 const CandidatesGrid = ({ data }: ICandidatesGridProps) => {
   return (
-    <Box sx={{ width: "100%", height: 450 }} className="jobs-grid">
+    <Box sx={{ width: "100%", height: 450 }} className="candidates-grid ">
       <DataGrid
         rows={data}
         columns={column}
